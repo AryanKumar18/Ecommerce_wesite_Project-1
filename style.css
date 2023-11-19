@@ -122,14 +122,25 @@ li {
   }
 
   .custom-image-3 {
-    display: block; /* This makes the image a block element to center it horizontally */
-    margin: -50px; /* This centers the image horizontally within its container */
+    /* This makes the image a block element to center it horizontally */
+    margin-top: -200px; /* This centers the image horizontally within its container */
     margin-right: 95px;
     margin-left: -70px;
     border-radius: 1rem;
-    width: 18rem; /* Adjust the maximum width as needed */
-    height: 240px; /* This maintains the image's aspect ratio */
+    width: 50px; /* Adjust the maximum width as needed */
+    height: 320px; /* This maintains the image's aspect ratio */
   }
+
+  .custom-image-4{
+    width: 9rem; /* Adjust the maximum width as needed */
+    height: 170px;
+  }
+
+  .custom-image-5{
+    width: 8rem; /* Adjust the maximum width as needed */
+    height: 180px;
+  }
+
 
   .custom-shape-divider-bottom-1698401651 {
     position: absolute;
@@ -236,9 +247,9 @@ li {
 }
 
 .hero-conten{
-    margin-top: 8%;
-    margin-left: -15px ;
-    max-height:  100px;
+    margin-top: 4%;
+    margin-left: -18px ;
+    height: 100px;
 }
 
 
@@ -294,4 +305,19 @@ li {
     background-attachment: fixed;
     padding: 6rem;
     overflow: hidden;
+}
+
+.custom-image-2 {
+     /* This makes the image a block element to center it horizontally */
+    /* This centers the image horizontally within its container */
+    margin-right: -75px;
+    margin-left: -70px;
+    border-radius: 1rem;
+    width: 18rem; /* Adjust the maximum width as needed */
+    height: 240px; /* This maintains the image's aspect ratio */
+}
+
+.myclass{
+    margin-right: 15px;
+    margin-left: 15px;
 }
